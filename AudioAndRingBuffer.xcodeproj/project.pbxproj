@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C707225B1C4A897B001D50C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C707225A1C4A897B001D50C9 /* main.m */; };
+		C707225E1C4A897B001D50C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C707225D1C4A897B001D50C9 /* AppDelegate.m */; };
+		C70722611C4A897B001D50C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70722601C4A897B001D50C9 /* ViewController.m */; };
+		C70722641C4A897B001D50C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70722621C4A897B001D50C9 /* Main.storyboard */; };
+		C70722661C4A897B001D50C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70722651C4A897B001D50C9 /* Assets.xcassets */; };
+		C70722691C4A897B001D50C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70722671C4A897B001D50C9 /* LaunchScreen.storyboard */; };
+		C70722711C4A89AE001D50C9 /* SatRing.c in Sources */ = {isa = PBXBuildFile; fileRef = C70722701C4A89AE001D50C9 /* SatRing.c */; };
+		C70722791C4A9398001D50C9 /* AudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C70722781C4A9398001D50C9 /* AudioDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C70722561C4A897B001D50C9 /* AudioAndRingBuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioAndRingBuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C707225A1C4A897B001D50C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C707225C1C4A897B001D50C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C707225D1C4A897B001D50C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C707225F1C4A897B001D50C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C70722601C4A897B001D50C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C70722631C4A897B001D50C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70722651C4A897B001D50C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70722681C4A897B001D50C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C707226A1C4A897B001D50C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70722701C4A89AE001D50C9 /* SatRing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SatRing.c; sourceTree = "<group>"; };
+		C70722721C4A89C7001D50C9 /* SatRing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatRing.h; sourceTree = "<group>"; };
+		C70722771C4A9398001D50C9 /* AudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDevice.h; sourceTree = "<group>"; };
+		C70722781C4A9398001D50C9 /* AudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70722531C4A897B001D50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C707224D1C4A897B001D50C9 = {
+			isa = PBXGroup;
+			children = (
+				C70722581C4A897B001D50C9 /* AudioAndRingBuffer */,
+				C70722571C4A897B001D50C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70722571C4A897B001D50C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70722561C4A897B001D50C9 /* AudioAndRingBuffer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70722581C4A897B001D50C9 /* AudioAndRingBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				C70722771C4A9398001D50C9 /* AudioDevice.h */,
+				C70722781C4A9398001D50C9 /* AudioDevice.m */,
+				C70722721C4A89C7001D50C9 /* SatRing.h */,
+				C70722701C4A89AE001D50C9 /* SatRing.c */,
+				C707225C1C4A897B001D50C9 /* AppDelegate.h */,
+				C707225D1C4A897B001D50C9 /* AppDelegate.m */,
+				C707225F1C4A897B001D50C9 /* ViewController.h */,
+				C70722601C4A897B001D50C9 /* ViewController.m */,
+				C70722621C4A897B001D50C9 /* Main.storyboard */,
+				C70722651C4A897B001D50C9 /* Assets.xcassets */,
+				C70722671C4A897B001D50C9 /* LaunchScreen.storyboard */,
+				C707226A1C4A897B001D50C9 /* Info.plist */,
+				C70722591C4A897B001D50C9 /* Supporting Files */,
+			);
+			path = AudioAndRingBuffer;
+			sourceTree = "<group>";
+		};
+		C70722591C4A897B001D50C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C707225A1C4A897B001D50C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70722551C4A897B001D50C9 /* AudioAndRingBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C707226D1C4A897B001D50C9 /* Build configuration list for PBXNativeTarget "AudioAndRingBuffer" */;
+			buildPhases = (
+				C70722521C4A897B001D50C9 /* Sources */,
+				C70722531C4A897B001D50C9 /* Frameworks */,
+				C70722541C4A897B001D50C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioAndRingBuffer;
+			productName = AudioAndRingBuffer;
+			productReference = C70722561C4A897B001D50C9 /* AudioAndRingBuffer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C707224E1C4A897B001D50C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.jaybers;
+				TargetAttributes = {
+					C70722551C4A897B001D50C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C70722511C4A897B001D50C9 /* Build configuration list for PBXProject "AudioAndRingBuffer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C707224D1C4A897B001D50C9;
+			productRefGroup = C70722571C4A897B001D50C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70722551C4A897B001D50C9 /* AudioAndRingBuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70722541C4A897B001D50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70722691C4A897B001D50C9 /* LaunchScreen.storyboard in Resources */,
+				C70722661C4A897B001D50C9 /* Assets.xcassets in Resources */,
+				C70722641C4A897B001D50C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70722521C4A897B001D50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70722611C4A897B001D50C9 /* ViewController.m in Sources */,
+				C70722791C4A9398001D50C9 /* AudioDevice.m in Sources */,
+				C707225E1C4A897B001D50C9 /* AppDelegate.m in Sources */,
+				C70722711C4A89AE001D50C9 /* SatRing.c in Sources */,
+				C707225B1C4A897B001D50C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C70722621C4A897B001D50C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70722631C4A897B001D50C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70722671C4A897B001D50C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70722681C4A897B001D50C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C707226B1C4A897B001D50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C707226C1C4A897B001D50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C707226E1C4A897B001D50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioAndRingBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybers.AudioAndRingBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C707226F1C4A897B001D50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioAndRingBuffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaybers.AudioAndRingBuffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70722511C4A897B001D50C9 /* Build configuration list for PBXProject "AudioAndRingBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C707226B1C4A897B001D50C9 /* Debug */,
+				C707226C1C4A897B001D50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C707226D1C4A897B001D50C9 /* Build configuration list for PBXNativeTarget "AudioAndRingBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C707226E1C4A897B001D50C9 /* Debug */,
+				C707226F1C4A897B001D50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C707224E1C4A897B001D50C9 /* Project object */;
+}
